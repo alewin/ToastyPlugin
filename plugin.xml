@@ -8,8 +8,8 @@
     <license>MIT</license>
 
     <keywords>cordova,android,toast,message,alert</keywords>
-    <repo>https://github.com/stanidesis/toastyplugin/Toast-PhoneGap-Plugin.git</repo>
-    <issue>https://github.com/stanidesis/toastyplugin/issues</issue>
+    <repo>https://github.com/alewin/ToastyPlugin.git</repo>
+    <issue>https://github.com/alewin/ToastyPlugin/issues</issue>
   
     <engines>
         <engine name="cordova" version=">=3.0.0"/>
@@ -21,10 +21,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="ToastyPlugin">
-                <param name="android-package" value="com.stanleyidesis.cordova.plugin.ToastyPlugin"/>
+                <param name="android-package" value="com.alessiokoci.cordova.plugin.ToastyPlugin"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/ToastyPlugin.java" target-dir="src/com/stanleyidesis/cordova/plugin" />
+        <source-file src="src/android/ToastyPlugin.java" target-dir="src/com/alessiokoci/cordova/plugin" />
     </platform>
 </plugin>
